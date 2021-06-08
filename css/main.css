@@ -14,16 +14,19 @@ h2,
 h3,
 h4,
 h5 {
+  font-weight: 800;
   margin: 0;
   padding: 0;
   text-transform: uppercase;
+}
+h2 {
+  font-size: 32px;
 }
 a {
   color: #22344d;
   display: block;
   text-decoration: none;
 }
-
 p {
   margin: 0;
   padding: 0;
@@ -56,6 +59,52 @@ input {
   margin: 0 auto;
   padding: 0 15px;
 }
+.item {
+  background: #ffffff;
+  border: 1px solid #bed2dd;
+  box-sizing: border-box;
+  border-radius: 2px;
+  transition: 0.2s;
+}
+.item:hover {
+  box-shadow: 0px 4px 30px rgba(132, 164, 185, 0.24);
+  cursor: pointer;
+  border: none;
+}
+.owl-dots {
+  display: none;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  border: 1px solid #d3d3d3;
+  border-radius: 2px;
+  padding: 15px 20px !important;
+  margin: 0;
+  cursor: pointer;
+  display: inline-flex;
+}
+.owl-theme .owl-nav .disabled {
+  opacity: 1;
+}
+.owl-theme .owl-nav {
+  position: absolute;
+  top: -20%;
+  right: 0;
+}
+.owl-carousel .owl-nav button.owl-prev {
+  margin-right: 7px;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background-color: #2b798d;
+  color: #fff;
+  text-decoration: none;
+}
+
+.owl-carousel .owl-stage {
+  padding: 20px 0;
+}
+/* HEADER */
 .header {
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
 }
@@ -181,7 +230,6 @@ input {
 }
 
 .offer__title {
-  font-weight: 800;
   font-size: 35px;
   line-height: 43px;
   width: 680px;
@@ -275,6 +323,47 @@ input {
 .overflow {
   height: 200px;
 }
+/* PROFITABLE */
+#profitable {
+  padding: 50px 0;
+}
+
+.profitable__subtitle {
+  padding: 20px 0 17px;
+  width: 340px;
+  font-weight: 300;
+}
+.profitable__link {
+  padding: 12px 13px 26px 13px;
+}
+.profitable__info {
+  text-transform: none;
+  padding-top: 15px;
+}
+.profitable__address {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  padding-top: 7px;
+}
+
+.profitable__price {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9292aa;
+  display: flex;
+  align-items: baseline;
+  margin-top: 13px;
+}
+.profitable__price span {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2c798d;
+  margin-right: 9px;
+}
+
 /* CONSULTATION */
 
 #consultation {
@@ -293,7 +382,6 @@ input {
   justify-content: space-between;
 }
 .consultation__title {
-  font-weight: 800;
   font-size: 33px;
   line-height: 40px;
   width: 560px;
@@ -395,7 +483,6 @@ input {
   font-size: 14px;
 }
 .footer__title {
-  font-weight: 800;
   font-size: 23px;
   margin-bottom: 10px;
 }
