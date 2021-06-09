@@ -413,17 +413,17 @@ input {
 
 #free-calculating {
   background-image: url(../img/free-calculate-bg.jpg);
+  background-color: #2b798d;
   background-repeat: no-repeat;
-  background-position: center, bottom;
-  background-size: cover;
   padding: 40px 0 46px 0;
+  background-position: 53% bottom;
 }
 .free-calculating__wrapper {
   display: flex;
   justify-content: space-between;
 }
 .free-calculating__text-block {
-  padding-top: 30px;
+  padding-top: 40px;
 }
 .free-calculating__title,
 .free-calculating__subtitle {
