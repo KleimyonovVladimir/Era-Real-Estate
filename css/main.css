@@ -58,7 +58,7 @@ input {
   font-weight: 500;
 }
 .container {
-  width: 1110px;
+  width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -77,12 +77,13 @@ input {
   border: 1px solid #fff;
   color: #fff;
 }
+.subtitle {
+  font-weight: 300;
+}
 /* SLIDER */
 .swiper-container {
-  width: 100%;
-  height: 100%;
-  padding-top: 100px;
-  margin-top: -100px;
+  padding: 100px 20px 0;
+  margin: -100px -20px 0 -20px;
 }
 .swiper-slide {
   background: #ffffff;
@@ -95,7 +96,7 @@ input {
 .swiper-slide:hover {
   box-shadow: 0px 4px 30px rgba(132, 164, 185, 0.24);
   cursor: pointer;
-  border: none;
+  border-color: #fff;
 }
 .swiper-wrapper {
   padding: 15px 0;
@@ -128,6 +129,7 @@ input {
   transition: 0.2s;
   width: 51px;
   height: 51px;
+  margin-right: 20px;
 }
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
@@ -409,7 +411,7 @@ input {
   margin-right: 9px;
 }
 
-/* FREE-PAYMENT */
+/* FREE-Calculating*/
 
 #free-calculating {
   background-image: url(../img/free-calculate-bg.jpg);
@@ -433,12 +435,37 @@ input {
   width: 650px;
 }
 .free-calculating__subtitle {
-  font-weight: 300;
   width: 420px;
   padding-top: 40px;
 }
 .free-calculating__button {
   color: #2a798d;
+}
+/* Numbers */
+#numbers {
+  padding: 100px 0 50px 0;
+}
+.numbers__subtitle {
+  width: 675px;
+  margin: 20px 0 5px 0;
+}
+.numbers__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 85px;
+}
+.numbers__item {
+  position: relative;
+}
+.numbers__reporting-digit {
+  font-weight: 800;
+  font-size: 100px;
+  color: #e9eef2;
+}
+.numbers__reporting-text {
+  font-weight: 500;
+  position: absolute;
+  bottom: -7px;
 }
 /* HOME-PAGE-NEWS */
 #home-page-news {
@@ -506,7 +533,6 @@ input {
 }
 
 .consultation__subtitle {
-  font-weight: 300;
   font-size: 16px;
   width: 446px;
   padding: 25px 0 35px 0;
