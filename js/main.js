@@ -1,24 +1,24 @@
 $(document).ready(() => {
-  $(".profitable__carousel").owlCarousel({
-    loop: true,
-    margin: 27,
-    nav: true,
-    navText: ['<img src="img/left.svg">', '<img src="./img/right.svg">'],
-    responsiveClass: true,
-    responsive: {
-      0: {
-        items: 1,
-        nav: true,
-      },
-      600: {
-        items: 3,
-        nav: false,
-      },
-      1000: {
-        items: 3,
-        nav: true,
-        loop: false,
-      },
+  new Swiper(".profitable__swiper-container", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      // when window width is >= 320px
+    },
+  });
+  new Swiper(".home-page-news__swiper-container", {
+    slidesPerView: 4,
+    spaceBetween: 27,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      // when window width is >= 320px
     },
   });
 });
