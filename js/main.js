@@ -21,4 +21,10 @@ $(document).ready(() => {
       // when window width is >= 320px
     },
   });
+  $(function () {
+    $("#accordion").accordion({
+      collapsible: true,
+      active: false,
+    });
+  });
 });
