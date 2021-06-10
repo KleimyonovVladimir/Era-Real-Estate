@@ -413,6 +413,67 @@ input {
   margin-right: 9px;
 }
 
+/* Our-advantages */
+#our-advantages {
+  padding: 50px 0 100px;
+  font-weight: 300;
+}
+
+.our-advantages__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.our-advantages__title {
+  margin-bottom: 40px;
+}
+.our-advantages__title-continuation {
+  font-weight: normal;
+  font-size: 16px;
+  text-transform: none;
+}
+.our-advantages__text {
+  margin-bottom: 27px;
+  width: 435px;
+
+  line-height: 1.315em;
+}
+.our-advantages__list-countries {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.our-advantages__item-countries {
+  position: relative;
+  font-weight: 500;
+  line-height: 19px;
+}
+.our-advantages__item-countries::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/arrow-nav.svg);
+  background-repeat: no-repeat;
+  width: 13px;
+  height: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -20px;
+}
+.our-advantages__our-mission {
+  font-size: 20px;
+  line-height: 25px;
+  margin: 30px 0 5px;
+  position: relative;
+}
+.our-advantages__our-mission::after {
+  content: "";
+  position: absolute;
+  border: 1px solid #d3d3d3;
+  width: 126px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 47%;
+}
 /* FREE-Calculating*/
 
 #free-calculating {
