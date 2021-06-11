@@ -27,4 +27,21 @@ $(document).ready(() => {
       active: false,
     });
   });
+  new Swiper(".reviews__swiper-container", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      // when window width is >= 320px
+    },
+  });
+  $(function () {
+    $("#accordion").accordion({
+      collapsible: true,
+      active: false,
+    });
+  });
 });
