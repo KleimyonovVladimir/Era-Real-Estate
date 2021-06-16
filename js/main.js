@@ -52,4 +52,8 @@ $(document).ready(() => {
     };
     var map = new google.maps.Map(mapCanvas, mapOptions);
   }
+  $(function () {
+    $("#tabs").tabs().addClass("ui-tabs-vertical");
+    $("#tabs li").removeClass("ui-corner-top").addClass("ui-corner-left");
+  });
 });

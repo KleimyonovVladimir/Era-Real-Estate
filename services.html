@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/media.css" />
+  <!-- Link CSS -->
+  <title>Услуги</title>
+</head>
+
+<body>
+  <header id="header" class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <a href="./index.html" class="header__logo">
+          <img src="./img/logo.png" alt="Era-Real Estate" />
+        </a>
+        <div class="header__info">
+          <div class="wrapper-contacts">
+            <div class="search-field">
+              <span class="search-field__icon">
+                <img src="./img/search.svg" alt="search" />
+              </span>
+              <input class="search-field__input" type="text" placeholder="Что вы ищите?" />
+            </div>
+            <div class="header__contacts">
+              <a href="mailto:eranedsh@gmail.com" class="email">eranedsh@gmail.com</a>
+              <a href="tel:+375447491706" class="phone">+375 (44) 749-17-06</a>
+              <a href="tel:80173606668" class="phone">8 (017) 360-66-68</a>
+            </div>
+          </div>
+          <nav class="header__navigation">
+            <ul class="menu">
+              <li class="menu__item">
+                <div class="dropdown">
+                  <a href="#" class="dropbtn menu__link">Каталог недвижимости</a>
+                  <div class="dropdown-content">
+                    <a href="#" class="dropdown-content__link">Link 1</a>
+                    <a href="#" class="dropdown-content__link">Link 2</a>
+                    <a href="#" class="dropdown-content__link">Link 3</a>
+                  </div>
+                </div>
+              </li>
+              <li class="menu__item">
+                <div class="dropdown">
+                  <a href="#" class="dropbtn menu__link">О компании</a>
+                  <div class="dropdown-content">
+                    <a href="#" class="dropdown-content__link">Link 1</a>
+                    <a href="#" class="dropdown-content__link">Link 2</a>
+                    <a href="#" class="dropdown-content__link">Link 3</a>
+                  </div>
+                </div>
+              </li>
+              <li class="menu__item">
+                <a href="./services.html" class="menu__link">Услуги</a>
+              </li>
+              <li class="menu__item">
+                <a href="./contacts.html" class="menu__link">Контакты</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Новости</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="services">
+    <div class="container">
+      <ul class="breadcrumb">
+        <li class="breadcrumb__item">
+          <a href="./index.html" class="breadcrumb__link">Главная</a>
+        </li>
+        <li class="breadcrumb__item">Услуги</li>
+      </ul>
+      <h2 class="services__title">С чем мы можем вам помочь</h2>
+    </div>
+    <div id="tabs">
+      <div class="tabs__list-wrap">
+        <ul class="tabs__list">
+          <li class="tabs__item">
+            <a href="#tabs-1" class="tabs__link">Продажа недвижимости</a>
+          </li>
+          <li class="tabs__item">
+            <a href="#tabs-2" class="tabs__link">Аренда недвижимости</a>
+          </li>
+          <li class="tabs__item">
+            <a href="#tabs-3" class="tabs__link">Покупка недвижимости</a>
+          </li>
+          <li class="tabs__item">
+            <a href="#tabs-4" class="tabs__link">Страхование</a>
+          </li>
+          <li class="tabs__item">
+            <a href="#tabs-5" class="tabs__link">Срочный выкуп</a>
+          </li>
+          <li class="tabs__item">
+            <a href="#tabs-6" class="tabs__link">Дизайн и ремонт</a>
+          </li>
+          <li class="tabs__item">
+            <a href="#tabs-7" class="tabs__link">Управление арендой</a>
+          </li>
+          <li class="tabs__item last-tabs">
+            <a href="#tabs-8" class="tabs__link">Кредитование</a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="tabs-1">
+        <h3 class="tabs-title">Продажа недвижимости</h3>
+        <ul class="tabs-inner_list">
+          <li class="tabs-inner_item">
+            <span class="step">Шаг 1</span>
+            <div class="tabs-text_wrap">
+              <h4 class="tabs-inner_title">Правильная оценка</h4>
+              <p class="tabs-inner_paragraph">
+                Наша задача – продать объект как можно быстрее и выгоднее
+              </p>
+            </div>
+          </li>
+          <li class="tabs-inner_item">
+            <span class="step">Шаг 2</span>
+            <div class="tabs-text_wrap">
+              <h4 class="tabs-inner_title">Поиск покупателей</h4>
+              <p class="tabs-inner_paragraph">
+                Качественно рекламируем объект на ведущих площадках
+                недвижимости
+              </p>
+            </div>
+          </li>
+          <li class="tabs-inner_item">
+            <span class="step">Шаг 3</span>
+            <div class="tabs-text_wrap">
+              <h4 class="tabs-inner_title">Работа с покупателями</h4>
+              <p class="tabs-inner_paragraph">
+                Принимаем звонки,организовываем показы, ведем переговоры
+              </p>
+            </div>
+          </li>
+          <li class="tabs-inner_item">
+            <span class="step">Шаг 4</span>
+            <div class="tabs-text_wrap">
+              <h4 class="tabs-inner_title">Отчеты</h4>
+              <p class="tabs-inner_paragraph">
+                Мы информируем вас обо всех изменениях, текущей ситуации по
+                продаже
+              </p>
+            </div>
+          </li>
+          <li class="tabs-inner_item">
+            <span class="step last">Шаг 5</span>
+            <div class="tabs-text_wrap">
+              <h4 class="tabs-inner_title">Оформление сделки</h4>
+              <p class="tabs-inner_paragraph">
+                Юридически сопровождаем и по ускоренной схеме собираем все
+                документы
+              </p>
+            </div>
+          </li>
+        </ul>
+        <p class="tabs-label">
+          <span class="tabs-label__difference">Ваша забота</span> — только
+          подписание в заранее намеченное время договора о продаже и, конечно,
+          получение денег
+        </p>
+      </div>
+      <div id="tabs-2">
+        <h3 class="tabs-title">Аренда недвижимости</h3>
+        <p class="tabs-text">
+          Если вам необходимо снять квартиру или комнату без рисков и с
+          максимальной гарантией, то самый эффективный способ — обратиться к
+          нашим специалистам, которые помогут вам найти нужное жилье в
+          кратчайшие сроки и с соблюдением всех юридических норм.
+        </p>
+        <ul class="tabs-advantages_list">
+          <li class="tabs-advantages_item square">
+            Бесплатная консультация специалиста по сдаче или найму квартиры
+          </li>
+          <li class="tabs-advantages_item square">
+            Проверка юридической чистоты квартир и комнат
+          </li>
+          <li class="tabs-advantages_item square">
+            Составление необходимой документации и сопровождение сделки
+          </li>
+          <li class="tabs-advantages_item square">Оценка квартиры</li>
+          <li class="tabs-advantages_item square">
+            Сопровождение просмотра квартиры
+          </li>
+          <li class="tabs-advantages_item square">Гарантия сделки</li>
+          <li class="tabs-advantages_item square">Оплата по факту сделки</li>
+        </ul>
+      </div>
+      <div id="tabs-3">
+        <h3 class="tabs-title">Покупка недвижимости</h3>
+        <ul class="tabs-inner_list">
+          <li class="tabs-inner_item">
+            <span class="step">Шаг 1</span>
+            <div class="tabs-text_wrap">
+              <h4 class="tabs-inner_title">Подбор квартиры</h4>
+              <p class="tabs-inner_paragraph">
+                Наша задача – подобрать максимально выгодный для покупки
+                объект
+              </p>
+            </div>
+          </li>
+          <li class="tabs-inner_item">
+            <span class="step">Шаг 2</span>
+            <div class="tabs-text_wrap">
+              <h4 class="tabs-inner_title">Организация просмотров</h4>
+              <p class="tabs-inner_paragraph">
+                Принимаем звонки, организовываем показы, ведем переговоры
+              </p>
+            </div>
+          </li>
+          <li class="tabs-inner_item">
+            <span class="step">Шаг 3</span>
+            <div class="tabs-text_wrap">
+              <h4 class="tabs-inner_title">
+                Оценка квартиры и защита ваших интересов
+              </h4>
+              <p class="tabs-inner_paragraph">
+                Наш специалист оценит объект на соответствие вашим пожеланиям
+              </p>
+            </div>
+          </li>
+          <li class="tabs-inner_item">
+            <span class="step last">Шаг 4</span>
+            <div class="tabs-text_wrap">
+              <h4 class="tabs-inner_title">Проведение сделки</h4>
+              <p class="tabs-inner_paragraph">
+                Юридически сопровождаем и по ускоренной схеме собираем все
+                документы
+              </p>
+            </div>
+          </li>
+        </ul>
+        <p class="tabs-label">
+          <span class="tabs-label__difference">Ваша забота</span> — только
+          присутствие на просмотрах квартир и подписание в заранее намеченное
+          время договора о покупке.
+        </p>
+      </div>
+      <div id="tabs-4">
+        <h3 class="tabs-title">Страхование</h3>
+        <p class="tabs-text">
+          Иметь крышу над головой – это не только расхожее выражение, но и
+          вполне конкретная человеческая потребность. Порой мы даже не
+          задумываемся над тем, что с нашей недвижимостью может произойти
+          нечто более серьезное, чем уменьшение ее стоимости на рынке жилья.
+        </p>
+        <p class="tabs-text">
+          Для того чтобы наши клиенты всегда могли сделать наиболее удобный и
+          выгодный для них выбор, наш партнёр Белгосстрах разработал
+          специальную услугу – комплексное страхование квартиры, включающее в
+          себя страхование квартиры, имущества и гражданской ответственности.
+        </p>
+        <p class="tabs-request_txt">
+          Вы можете оставить заявку в форме ниже, наш специалист ответит на
+          все ваши вопросы абсолютно бесплатно.
+        </p>
+      </div>
+      <div id="tabs-5">
+        <h3 class="tabs-title">Срочный выкуп</h3>
+        <ul class="tabs-urgent_list">
+          <li class="tabs-urgent_item">
+            <h4 class="tabs-urgent_title">Быстрая система взаиморасчётов</h4>
+            <p class="tabs-urgent_txt">
+              У нас нет необходимости в финансовой поддержке банков и
+              финансовых организаций
+            </p>
+          </li>
+          <li class="tabs-urgent_item">
+            <h4 class="tabs-urgent_title">Все риски берем на себя</h4>
+            <p class="tabs-urgent_txt">
+              Сбор и оформление документов на срочный выкуп недвижимости
+              осуществляются за счет агентства
+            </p>
+          </li>
+          <li class="tabs-urgent_item">
+            <h4 class="tabs-urgent_title">
+              Минимальные сроки проведения сделки
+            </h4>
+            <p class="tabs-urgent_txt">
+              Вы получаете деньги за квартиру в срок от 1 до 3 дней без затрат
+              времени на поиск покупателя
+            </p>
+          </li>
+          <li class="tabs-urgent_item">
+            <h4 class="tabs-urgent_title">
+              Особенно эффективно в период падения продаж
+            </h4>
+            <p class="tabs-urgent_txt">
+              Даже когда нет потенциальных покупателей, Вы можете получить
+              деньги за свою квартиру или дом
+            </p>
+          </li>
+        </ul>
+        <ul class="tabs-inner_list urgent">
+          <li class="tabs-inner_item">
+            <span class="step step-urgent">Шаг 1</span>
+            <div class="tabs-text_wrap">
+              <h4 class="tabs-inner_title">Определение стоимости объекта</h4>
+              <p class="tabs-inner_paragraph">
+                Стоимость определяется из сложившегося спроса и предложения.
+                Анализируется состояние объекта и место его расположения
+              </p>
+            </div>
+          </li>
+          <li class="tabs-inner_item">
+            <span class="step step-urgent">Шаг 2</span>
+            <div class="tabs-text_wrap">
+              <h4 class="tabs-inner_title">
+                Юридическая экспертиза документов о собственности
+              </h4>
+              <p class="tabs-inner_paragraph">
+                Мы производим проверку документов, подтверждающих право
+                собственности недвижимым имуществом: претензии и права третьих
+                лиц, арест или обременение
+              </p>
+            </div>
+          </li>
+          <li class="tabs-inner_item">
+            <span class="step step-urgent">Шаг 3</span>
+            <div class="tabs-text_wrap">
+              <h4 class="tabs-inner_title">
+                Подписание предварительного договора
+              </h4>
+              <p class="tabs-inner_paragraph">
+                Составляется предварительный договор о намерениях совершить
+                куплю-продажу объекта со всеми условиями сделки. Производится
+                передача задатка.
+              </p>
+            </div>
+          </li>
+          <li class="tabs-inner_item">
+            <span class="step step-urgent last">Шаг 4</span>
+            <div class="tabs-text_wrap">
+              <h4 class="tabs-inner_title">Проведение сделки</h4>
+              <p class="tabs-inner_paragraph">
+                Стороны подписывают договор у государственного регистратора,
+                по которому квартира или другой объект переходит во владение
+                нового собственника
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="tabs-6">
+        <h3 class="tabs-title">Дизайн и ремонт</h3>
+        <p class="tabs-text">
+          Вы можете заказать у нас дизайн проект и ремонт для своей квартиры,
+          наши специалисты, быстро, оперативно и в сроки реализуют Ваши мечты,
+          предварительно рассчитав стоимость по Вашим индивидуальным
+          предпочтениям.
+        </p>
+        <p class="tabs-text">
+          Также Вы можете воспользоваться данной услугой при продаже своей
+          недвижимости чтобы продать быстрее, сдвинуть продажу с мёртвой точки
+          или вовсе продать по более привлекательной цене.
+        </p>
+        <p class="tabs-request_txt">
+          Вы можете оставить заявку в форме ниже, наш специалист ответит на
+          все ваши вопросы абсолютно бесплатно.
+        </p>
+      </div>
+      <div id="tabs-7">
+        <h3 class="tabs-title">Управление арендой</h3>
+        <p class="tabs-text">
+          В сфере недвижимости крупных городов ключом к процветающим и
+          прибыльным инвестициям в недвижимость является ваша управляющая
+          компания.
+        </p>
+        <p class="tabs-text">
+          <span>Основная цель</span> управляющей компании
+          «Эра-недвижимости плюс» заключается в повышении основной ценности
+          управляемых активов недвижимости путем использования технологий и
+          инноваций для оптимизации отчетности и улучшения качества
+          обслуживания клиентов.
+        </p>
+        <p class="tabs-text">
+          Мы не просто собираем арендную плату, а использует каждый доступный ресурс для увеличения доходов
+          собственников, приносим клиентам то, что они ценят больше всего: стабильный пассивный доход и спокойствие!
+        </p>
+        <p class="tabs-request_txt">
+          Вы можете оставить заявку в форме ниже, наш специалист ответит на
+          все ваши вопросы абсолютно бесплатно.
+        </p>
+      </div>
+      <div id="tabs-8">
+        <h3 class="tabs-title">Кредитование</h3>
+        <p class="tabs-text">
+          Специальные условия банков для клиентов Компании «Эра-недвижимости плюс». Уважаемые клиенты, обращаясь к нам
+          для решения своего жилищного вопроса, вы имеете возможность получить более привлекательные (и более выгодные)
+          условия по ипотечному кредитованию.
+        </p>
+        <ul class="tabs-inner_list">
+          <li class="tabs-inner_item">
+            <span class="step crediting">Шаг 1</span>
+            <div class="tabs-text_wrap">
+              <h4 class="tabs-inner_title">Индивидуальный расчёт</h4>
+
+            </div>
+          </li>
+          <li class="tabs-inner_item">
+            <span class="step crediting">Шаг 2</span>
+            <div class="tabs-text_wrap">
+              <h4 class="tabs-inner_title">Сбор документов</h4>
+            </div>
+          </li>
+          <li class="tabs-inner_item">
+            <span class="step crediting">Шаг 3</span>
+            <div class="tabs-text_wrap">
+              <h4 class="tabs-inner_title">
+                Быстрое одобрение
+              </h4>
+            </div>
+          </li>
+          <li class="tabs-inner_item">
+            <span class="step crediting last">Шаг 4</span>
+            <div class="tabs-text_wrap">
+              <h4 class="tabs-inner_title">Оформление и получение кредита</h4>
+            </div>
+          </li>
+        </ul>
+        <p class="tabs-text">
+          Мы полностью проведём Вас от продажи и до покупки новой квартиры с привлечением кредита.
+        </p>
+        <p class="tabs-request_txt">
+          Оставьте заявку в форме ниже и наш специалист ответит на
+          все ваши вопросы абсолютно бесплатно.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="consultation">
+    <div class="container">
+      <div class="consultation__wrapper">
+        <div class="consultation__text-block">
+          <h2 class="consultation__title">
+            Остались вопросы? <br />
+            Мы будем готовы обсудить!
+          </h2>
+          <p class="consultation__subtitle subtitle">
+            Оставьте заявку и получите консультацию по вопросам недвижимости
+            абсолютно <span class="consultation__difference">бесплатно</span>
+          </p>
+        </div>
+        <form action="#" class="consultation__form common-form">
+          <input class="consultation__input common-input" type="text" placeholder="Имя" required />
+          <input class="consultation__input common-input" type="tel" placeholder="Телефон" required />
+          <input class="consultation__input common-input" type="text" placeholder="Комментарий" />
+          <button type="submit" class="consultation__button common-button">
+            Хочу бесплатную консультацию
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer-info">
+          <a href="./index.html" class="footer-info__logo">
+            <img src="./img/footer-logo.png" alt="Era-Real Estate" />
+          </a>
+          <p class="footer-info__text">
+            Группа компаний <span>«ЭРА-Недвижимости плюс»</span>
+          </p>
+          <a href="mailto:eranedsh@gmail.com" class="footer-info__email email">eranedsh@gmail.com</a>
+        </div>
+        <div class="footer-real-estate">
+          <h3 class="footer-real-estate__title footer__title">
+            Недвижимость
+          </h3>
+          <ul class="footer-real-estate__list">
+            <li class="footer-real-estate__item">
+              <a href="#" class="footer-real-estate__link footer__link">Вторичная недвижимость</a>
+            </li>
+            <li class="footer-real-estate__item">
+              <a href="#" class="footer-real-estate__link footer__link">Новостройки</a>
+            </li>
+            <li class="footer-real-estate__item">
+              <a href="#" class="footer-real-estate__link footer__link">Коммерческая недвижимость</a>
+            </li>
+            <li class="footer-real-estate__item">
+              <a href="#" class="footer-real-estate__link footer__link">Загородная недвижимость</a>
+            </li>
+            <li class="footer-real-estate__item">
+              <a href="#" class="footer-real-estate__link footer__link">Зарубежная недвижимость</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-services">
+          <h3 class="footer-services__title footer__title">Услуги</h3>
+          <ul class="footer-services__list">
+            <li class="footer-services__item">
+              <a href="#" class="footer-services__link footer__link">Продажа</a>
+            </li>
+            <li class="footer-services__item">
+              <a href="#" class="footer-services__link footer__link">Аренда</a>
+            </li>
+            <li class="footer-services__item">
+              <a href="#" class="footer-services__link footer__link">Покупка</a>
+            </li>
+            <li class="footer-services__item">
+              <a href="#" class="footer-services__link footer__link">Страхование</a>
+            </li>
+            <li class="footer-services__item">
+              <a href="#" class="footer-services__link footer__link">Срочный выкуп</a>
+            </li>
+            <li class="footer-services__item">
+              <a href="#" class="footer-services__link footer__link">Дизайн и ремонт</a>
+            </li>
+            <li class="footer-services__item">
+              <a href="#" class="footer-services__link footer__link">Управление арендой</a>
+            </li>
+            <li class="footer-services__item">
+              <a href="#" class="footer-services__link footer__link">Кредитование</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-contacts">
+          <h3 class="footer-contacts__title footer__title">Контакты</h3>
+          <ul class="footer-contacts__list">
+            <li class="footer-contacts__item">
+              <p class="footer-contacts__text">г. Солигорск, Комсомола 44</p>
+            </li>
+            <li class="footer-contacts__item">
+              <p class="footer-contacts__text">
+                г. Жодино, ул. Гагарина, 5/1, пом. 2
+              </p>
+            </li>
+            <li class="footer-contacts__item">
+              <p class="footer-contacts__text">г. Минск, Кульман 21б</p>
+            </li>
+          </ul>
+          <div class="footer-contacts__phone">
+            <div class="footer-contacts__item">
+              <a href="tel:+375447491706" class="footer-contacts__link phone-link footer__link phone">+375 (44)
+                749-17-06</a>
+              <span class="place">Республика Беларусь, Кипр, Польша</span>
+            </div>
+            <div class="footer-contacts__item">
+              <a href="tel:80173606668" class="footer-contacts__link phone-link footer__link phone">8 (017)
+                360-66-68</a>
+              <span class="place">Республика Беларусь</span>
+            </div>
+            <div class="footer-contacts__item">
+              <a href="tel:+375292844397" class="footer-contacts__link phone-link footer__link phone">+375 (29)
+                284-43-97</a>
+              <span class="place">Кипр, Турция</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="privacy">
+          <a href="#" class="privacy__link copyright-link">Политика конфиденциальности</a>
+        </div>
+        <div class="creator">
+          <p class="creator__text">Создание сайта</p>
+          <a href="http://diyammi.tilda.ws/clients" class="creator__link copyright-link">Диана Ямалетдинова</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/jQuery.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</body>
+
+</html>
